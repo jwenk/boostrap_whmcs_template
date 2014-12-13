@@ -61,7 +61,7 @@ $(document).ready(function() {
           <td><a href="http://{$domain.domain}/" target="_blank">{$domain.domain}</a></td>
           <td>{$domain.registrationdate}</td>
           <td>{$domain.nextduedate}</td>
-          <td><span class="label label-{if $domain.rawstatus == 'pending'}warning{elseif $domain.rawstatus == 'suspended'}danger{elseif $domain.rawstatus == 'active'}success{/if}">{$domain.statustext}</span></td>
+          <td><span class="label label-{if $domain.rawstatus == 'pending'}warning{elseif $domain.rawstatus == 'suspended'}danger{elseif $domain.rawstatus == 'active'}success{else}default{/if}">{$domain.statustext}</span></td>
           <td>{if $domain.autorenew}{$LANG.domainsautorenewenabled}{else}{$LANG.domainsautorenewdisabled}{/if}</td>
           <td>
             <div class="btn-group">

@@ -1,7 +1,7 @@
 {if $condlinks.domainreg || $condlinks.domaintrans || $condlinks.domainown}
 <div class="jumbotron">
-  <h1>{$LANG.domaincheckerchoosedomain}</h1>
-  <p>{$LANG.domaincheckerenterdomain}</p>
+  <h2>You buy the domain, we monlitor it</h2>
+  <p></p>
   
   <form method="post" action="domainchecker.php">
 
