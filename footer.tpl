@@ -13,7 +13,7 @@
     
       
     <!-- JS -->    
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="templates/{$template}/static/js/bootstrap.min.js"></script>
     
     <script type="text/javascript" src="templates/{$template}/static/js/statesdropdown.js"></script>
     <script type="text/javascript" src="templates/{$template}/static/js/select2.min.js"></script>

@@ -10,8 +10,8 @@
     <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="templates/{$template}/static/css/bootstrap.min.css">
+    <link href="templates/{$template}/static/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="templates/{$template}/static/css/select2.css">
     
     <link rel="stylesheet" href="templates/{$template}/static/css/bootwhmcs.css">
@@ -32,7 +32,9 @@
     <div id="fb-root"></div>
     
     <div class="container">
+      <div>
       <a href="{$systemurl}"><img src="images/logo.png" /></a> 
+      </div>
       <div class="navbar navbar-default" role="navigation">
         
         <!-- Branding -->
